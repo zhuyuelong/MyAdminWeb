@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zh">    <!-- 中文网站 -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>冰炎红龙的个人主页</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- 创建一个导航栏对象nav -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">返回主页</a>    <!-- 惯用的返回主页的方式 -->
+            </div>
+            <!-- 以无序表单的方式组织位置在右上角的导航栏 -->
+            <ul class="nav navbar-top-links navbar-right">   
+                <!-- 第一个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-comment fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>十月初三，辰时，凌云窟。</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>东方未明</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>    <!-- 厚道的分割线 -->
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>山无棱，天地合，乃敢与君绝。</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>荆棘</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>逍遥拳不平，天下任吾行。</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>谷月轩</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>三月初三比武招亲，不见不散。</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>纪玟</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>四月初一出海荡寇，可助一臂否？</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>秦红殇</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>百年老店大酬宾，欢迎新老顾客光临！</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>明月楼</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>速来杭州衙门赎人，否则吾命休矣！！！</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>史燕</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>阅读全部短信</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li> 
+                <!-- 第二个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-twitter fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>十一放假吗？</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>老爸</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>    <!-- 厚道的分割线 -->
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>微信没钱了，速发一百元红包^_^</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>老妈</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>抓紧学习，别偷懒！</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>冯楠</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>请假的理由是什么？</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>李娜</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>您的余额不足，请尽快充值！</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>中国移动</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>你是个好人，但我们不适合...</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>女神</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>阅读全部微信</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li> 
+                <!-- 第三个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>fengnan@163.com</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>今天</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>liugang@163.com</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>今天</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>lina@foxmail.com</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>昨天</em>
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>阅读全部邮件</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 第四个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>学习JQUERY</strong>
+                                        <span class="pull-right text-muted">20% 完成</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% 完成 (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>学习NODE.JS</strong>
+                                        <span class="pull-right text-muted">40% 完成</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% 完成 (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>学习VUE.JS</strong>
+                                        <span class="pull-right text-muted">60% 完成</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% 完成 (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>学习BOOTSTRAP</strong>
+                                        <span class="pull-right text-muted">80% 完成</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% 完成</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>查看全部任务</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 第五个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> 7条新的短信
+                                    <span class="pull-right text-muted small">11分钟前</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 6条新的微信
+                                    <span class="pull-right text-muted small">3小时前</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> 3封新的邮件
+                                    <span class="pull-right text-muted small">4分钟前</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> 4项新的任务
+                                    <span class="pull-right text-muted small">2天前</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>查看全部提醒</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 第六个下拉列表 -->
+                <li class="dropdown">
+                    <!-- 图标本身也是一个链接 -->
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <!-- 嵌套在li内的主体列表对象-->
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i>用户管理</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i>基本设置</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i>退出系统</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- 以工具列表的方式组织位置在左侧的导航栏 -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <!-- 搜索编辑框对象 -->
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="搜索">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                        </li>
+                        <!-- 社交平台对象 -->
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i>个人社交平台<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">    <!-- 级联菜单对象 -->
+                                <li>
+                                    <a href="SocialFriendly.html">发起好友申请</a>
+                                </li>
+                                <li>
+                                    <a href="SocialPhoto.html">我的个人相册</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- 信息管理对象 -->
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i>信息管理平台<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">    <!-- 级联菜单对象 -->
+                                <li>
+                                    <a href="InfoShortMsg.html">我的短信平台</a>
+                                </li>
+                                <li>
+                                    <a href="infoMicroChart.html">我的微信平台</a>
+                                </li>
+                                <li>
+                                    <a href="InfoEMail.html">我的邮件平台</a>
+                                </li>
+                                <li>
+                                    <a href="infoDoTask.html">我的任务平台</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- 能力模型对象 -->
+                         <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i>能力模型展示<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="MyAbility.html">专业技术积累</a>
+                                </li>
+                                <li>
+                                    <a href="MyCharacter.html">性格特质分析</a>
+                                </li>
+                                <li>
+                                    <a href="myAction.html">行为模式总结</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- 课程学习对象 -->
+                        <li>
+                            <a href="#"><i class="fa fa-sitemap fa-fw"></i>WEB课程学习<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="https://github.com/">Github开源版本库</a>
+                                </li>
+                                <li>
+                                    <a href="#">WEB技术学习站点<span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">    <!-- 级联菜单对象 -->
+                                        <li>
+                                            <a href="http://www.w3school.com.cn/">W3SCHOOL在线教程</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.runoob.com/">RUNOOB菜鸟学习专区</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.imooc.com/">慕课网综合教育平台</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">WEB共享资源站点<span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="https://www.oschina.net/">开源中国</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.mycodes.net/">源码之家</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.codesky.net/">源码天空</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="ApplyIcons.html">WEB图标素材集锦</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Morris.js Charts</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Area Chart Example
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Bar Chart Example
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-bar-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Line Chart Example
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-line-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Donut Chart Example
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-donut-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Morris.js Usage
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <p>Morris.js is a jQuery based charting plugin created by Olly Smith. In SB Admin, we are using the most recent version of Morris.js which includes the resize function, which makes the charts fully responsive. The documentation for Morris.js is available on their website, <a target="_blank" href="http://morrisjs.github.io/morris.js/">http://morrisjs.github.io/morris.js/</a>.</p>
+                            <a target="_blank" class="btn btn-default btn-lg btn-block" href="http://morrisjs.github.io/morris.js/">View Morris.js Documentation</a>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
