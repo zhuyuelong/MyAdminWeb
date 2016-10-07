@@ -1,0 +1,6 @@
+git config --global user.name "zhuyuelong"
+git config --global user.email zhu.yuelong@163.com
+git remote add pb git@github.com:zhuyuelong/MyAdminWeb.git
+git pull git@github.com:zhuyuelong/MyAdminWeb.git
+git push git@github.com:zhuyuelong/MyAdminWeb.git
+
